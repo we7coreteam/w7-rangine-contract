@@ -15,14 +15,14 @@
         "psr/simple-cache": "^1.0",
         "psr/http-server-middleware": "^1.0",
         "psr/log": "~1.0",
-        "illuminate/contracts": "^7.29"
+        "illuminate/contracts": "~6.0"
     },
     "require-dev": {
         "w7/php-cs-fixer": "*"
     },
     "autoload": {
         "psr-4": {
-            "W7\\Contract\\": ""
+            "W7\\Contract\\": "src/"
         }
     }
 }
