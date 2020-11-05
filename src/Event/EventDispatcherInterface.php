@@ -1,6 +1,6 @@
 <?php
 
-namespace W7\Contract\Events;
+namespace W7\Contract\Event;
 
 use Illuminate\Contracts\Events\Dispatcher;
 
