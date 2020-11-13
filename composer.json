@@ -1,28 +1,28 @@
 {
-    "name": "w7/rangine-contract",
-    "description": "基于 Swoole 的常驻内存型 PHP 高性能框架",
-    "type": "library",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "RenChao",
-            "email": "donknap@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=7.2",
-        "psr/event-dispatcher": "^1.0",
-        "psr/simple-cache": "^1.0",
-        "psr/http-server-middleware": "^1.0",
-        "psr/log": "~1.0",
-        "illuminate/contracts": "~6.0"
-    },
-    "require-dev": {
-        "w7/php-cs-fixer": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "W7\\Contract\\": "src/"
-        }
-    }
+	"name": "w7/rangine-contract",
+	"description": "基于 Swoole 的常驻内存型 PHP 高性能框架",
+	"type": "library",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "RenChao",
+			"email": "donknap@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=7.2",
+		"psr/event-dispatcher": "^1.0",
+		"psr/simple-cache": "^1.0",
+		"psr/http-server-middleware": "^1.0",
+		"psr/log": "~1.0",
+		"illuminate/contracts": "~6.0"
+	},
+	"require-dev": {
+		"w7/php-cs-fixer": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"W7\\Contract\\": "src/"
+		}
+	}
 }
