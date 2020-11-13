@@ -1,7 +1,11 @@
 {
 	"name": "w7/rangine-contract",
-	"description": "基于 Swoole 的常驻内存型 PHP 高性能框架",
+	"description": "rangine contract",
 	"type": "library",
+	"keywords": [
+		"rangine",
+		"contract"
+	],
 	"license": "Apache-2.0",
 	"authors": [
 		{
