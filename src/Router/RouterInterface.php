@@ -1,8 +1,16 @@
 <?php
 
-namespace W7\Contract\Router;
+/**
+ * Rangine Contract
+ *
+ * (c) We7Team 2019 <https://www.rangine.com>
+ *
+ * document http://s.w7.cc/index.php?c=wiki&do=view&id=317&list=2284
+ *
+ * visited https://www.rangine.com for more details
+ */
 
-use W7\Core\Route\RouteDispatcher;
+namespace W7\Contract\Router;
 
 interface RouterInterface {
 	/**
