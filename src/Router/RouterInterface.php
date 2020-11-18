@@ -137,7 +137,6 @@ interface RouterInterface {
 	 * @param $name
 	 * @param $controller
 	 * @param array $options
-	 * @return ResourceRouteInterface
 	 */
 	public function resource($name, $controller, $options = []);
 
@@ -145,7 +144,6 @@ interface RouterInterface {
 	 * @param $name
 	 * @param $controller
 	 * @param array $options
-	 * @return ResourceRouteInterface
 	 */
 	public function apiResource($name, $controller, $options = []);
 
