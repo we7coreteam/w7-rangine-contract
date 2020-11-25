@@ -19,6 +19,7 @@ interface SessionInterface {
 	public function set($key, $value);
 	public function get($key, $default = '');
 	public function has($key);
+	public function all();
 	public function delete($keys);
 	public function destroy();
 	public function close();
