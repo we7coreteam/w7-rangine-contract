@@ -21,7 +21,7 @@
 		"psr/http-message": "^1.0",
 		"psr/http-server-middleware": "^1.0",
 		"psr/log": "~1.0",
-		"illuminate/contracts": "~6.0"
+		"illuminate/contracts": "*"
 	},
 	"require-dev": {
 		"w7/php-cs-fixer": "*"
