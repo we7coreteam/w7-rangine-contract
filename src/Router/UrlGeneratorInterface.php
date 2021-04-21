@@ -2,7 +2,7 @@
 
 namespace W7\Contract\Router;
 
-interface UrlGenerator {
+interface UrlGeneratorInterface {
     /**
      * Get the current URL for the request.
      *
