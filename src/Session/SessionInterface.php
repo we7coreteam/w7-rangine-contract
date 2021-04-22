@@ -12,6 +12,8 @@
 
 namespace W7\Contract\Session;
 
+use Psr\Http\Message\ResponseInterface;
+
 interface SessionInterface {
 	public function getName();
 	public function setId($sessionId);
@@ -24,4 +26,5 @@ interface SessionInterface {
 	public function destroy();
 	public function close();
 	public function gc();
+	public function replenishResponse(ResponseInterface $response) : ResponseInterface;
 }
