@@ -17,7 +17,7 @@ use Psr\Http\Message\RequestInterface;
 interface RouteInterface {
 	public function getName();
 	public function getModule();
-	public function getUrl();
+	public function getUri();
 	public function getController();
 	public function getAction();
 	public function getArgs();
