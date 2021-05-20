@@ -13,6 +13,7 @@
 namespace W7\Contract\Session;
 
 use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\ServerRequestInterface;
 
 interface SessionInterface {
 	public function getName();
@@ -22,6 +23,7 @@ interface SessionInterface {
 	public function get($key, $default = '');
 	public function has($key);
 	public function all();
+	public function start(ServerRequestInterface $request, $useBuiltUsage = false);
 	public function delete($keys);
 	public function destroy();
 	public function close();
