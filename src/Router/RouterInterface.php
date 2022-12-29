@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Rangine Contract
+ * This file is part of Rangine
  *
- * (c) We7Team 2019 <https://www.rangine.com>
+ * (c) We7Team 2019 <https://www.rangine.com/>
  *
  * document http://s.w7.cc/index.php?c=wiki&do=view&id=317&list=2284
  *
- * visited https://www.rangine.com for more details
+ * visited https://www.rangine.com/ for more details
  */
 
 namespace W7\Contract\Router;
@@ -25,6 +25,13 @@ interface RouterInterface {
 	 * @return $this
 	 */
 	public function name($name);
+
+	/**
+	 * 指定该路由的附加属性
+	 * @param array $option
+	 * @return $this
+	 */
+	public function option(array $option);
 
 	/**
 	 * @param ValidatorInterface $validator
