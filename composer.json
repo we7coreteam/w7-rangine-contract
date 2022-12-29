@@ -30,5 +30,10 @@
 		"psr-4": {
 			"W7\\Contract\\": "src/"
 		}
+	},
+	"config": {
+		"allow-plugins": {
+			"w7/php-cs-fixer": true
+		}
 	}
 }
