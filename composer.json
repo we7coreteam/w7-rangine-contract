@@ -34,5 +34,6 @@
 		"allow-plugins": {
 			"w7/php-cs-fixer": true
 		}
-	}
+	},
+	"minimum-stability": "dev"
 }
